@@ -11,9 +11,8 @@ print("Pole trojkata wynosi: " + str(pole) + ", a obwód wynosi " + str(obwod))
 
 # romb
 a = 10
-b = 12
-obwod = a*2 + b*12
-e=11
+obwod = a*4
+e=10
 f=12
 pole = (e*f)/2
 print("Obwod rombu wynosi: " + str(obwod) + ", a pole wynosi " +str(pole))
