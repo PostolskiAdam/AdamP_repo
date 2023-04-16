@@ -1,6 +1,6 @@
-def hello(a):
+def hello(b):
     #100
-    print(a)
+    print(b)
   
-
-hello("123")
+hello("Adam")
+print("Adam")
