@@ -27,3 +27,10 @@ h = 6
 pole_trapezu = ((a+b)*h)/2
 obwod_trapezu = a+b+c+d
 print("Obwod trapezu wynosi: " + str(obwod_trapezu) + ", a pole wynosi " +str(pole_trapezu))
+#prostokat
+a= 15
+b = 4
+
+pole_prostokata = a*b
+obwod_prostokata = a*2+b*2
+print("Obwod trapezu wynosi: " + str(obwod_prostokata) + ", a pole wynosi " +str(pole_prostokata))
