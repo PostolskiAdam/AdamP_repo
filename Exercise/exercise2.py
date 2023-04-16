@@ -1,3 +1,4 @@
+import math
 #trojkat
 
 a = 10
@@ -34,3 +35,9 @@ b = 4
 pole_prostokata = a*b
 obwod_prostokata = a*2+b*2
 print("Obwod trapezu wynosi: " + str(obwod_prostokata) + ", a pole wynosi " +str(pole_prostokata))
+
+#kolo
+r = 10
+obwod_kola = 2*math.pi*r
+pole_kola = math.pi*math.pow(r,2)
+print("Obwod kola wynosi: " + str(obwod_kola) + ", a pole wynosi " +str(pole_kola))
