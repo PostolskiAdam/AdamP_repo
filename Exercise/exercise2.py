@@ -5,14 +5,25 @@ b = 12
 c = 8
 h = 6
 
-pole = 1/2 *a*h
-obwod = a+b+c
-print("Pole trojkata wynosi: " + str(pole) + ", a obwód wynosi " + str(obwod))
+pole_trojkata = 1/2 *a*h
+obwod_trojkata = a+b+c
+print("Pole trojkata wynosi: " + str(pole_trojkata) + ", a obwód wynosi " + str(obwod_trojkata))
 
 # romb
 a = 10
-obwod = a*4
+obwod_rombu = a*4
 e=10
 f=12
-pole = (e*f)/2
-print("Obwod rombu wynosi: " + str(obwod) + ", a pole wynosi " +str(pole))
+pole_rombu = (e*f)/2
+print("Obwod rombu wynosi: " + str(obwod_rombu) + ", a pole wynosi " +str(pole_rombu))
+
+#trapez
+a = 15
+b = 4
+c = 3
+d= 4
+h = 6
+
+pole_trapezu = ((a+b)*h)/2
+obwod_trapezu = a+b+c+d
+print("Obwod trapezu wynosi: " + str(obwod_trapezu) + ", a pole wynosi " +str(pole_trapezu))
