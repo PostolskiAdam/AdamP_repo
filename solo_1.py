@@ -34,3 +34,14 @@ studenci = ["Anna Szczesny", "Tomasz Nijaki", "Barbara Kowalska", "Jan Niezbedny
 studenci.sort()
 for student in studenci:
     print(student)
+
+#zadanie 1.8
+
+studenci = ["Anna Szczesny", "Tomasz Nijaki", "Barbara Kowalska", "Jan Niezbedny"]
+nazwiska = []
+
+for student in studenci:
+    last_name = student.split(" ")
+    nazwiska.append(last_name[1])
+
+print(nazwiska)
