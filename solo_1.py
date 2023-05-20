@@ -17,3 +17,9 @@ print(liczba_studentow)
 for student in studenci:
     print("Hello " + student)
 
+
+#Zadanie 1.5
+liczba = 3
+potega = 4
+wynik = pow(liczba, potega)
+print(wynik)
