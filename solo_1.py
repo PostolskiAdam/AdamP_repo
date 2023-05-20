@@ -11,3 +11,9 @@ print("hello " + student)
 studenci = ["Ania", "Kuba", "Piotr", "Jan"]
 liczba_studentow = len(studenci)
 print(liczba_studentow)
+
+
+#zadanie 1.4
+for student in studenci:
+    print("Hello " + student)
+
