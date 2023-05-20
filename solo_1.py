@@ -45,3 +45,17 @@ for student in studenci:
     nazwiska.append(last_name[1])
 
 print(nazwiska)
+
+
+
+#zadanie 1.9
+studenci = ["Anna Szczesny", "Tomasz Nijaki", "Barbara Kowalska", "Jan Niezbedny"]
+nazwiska = []
+liczba_n = 0
+for student in studenci:
+    last_name = student.split(" ")
+    nazwiska.append(last_name[1])
+for nazwisko in nazwiska:
+    if nazwisko[0] == "N":
+        liczba_n += 1
+print("Liczba studentów na N wynosi " + str(liczba_n))
